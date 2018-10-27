@@ -1,35 +1,35 @@
 {
   "project_info": {
-    "project_number": "550254969354",
-    "firebase_url": "https://golfya-965fe.firebaseio.com",
-    "project_id": "golfya-965fe",
-    "storage_bucket": "golfya-965fe.appspot.com"
+    "project_number": "15326480504",
+    "firebase_url": "https://billiardya.firebaseio.com",
+    "project_id": "billiardya",
+    "storage_bucket": "billiardya.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:550254969354:android:8de3d6227ada550e",
+        "mobilesdk_app_id": "1:15326480504:android:f2f8b6747ad1de09",
         "android_client_info": {
-          "package_name": "kr.co.pointn.golfya"
+          "package_name": "kr.co.pointn.billiardya"
         }
       },
       "oauth_client": [
         {
-          "client_id": "550254969354-u23vrkbsm1iedqln0ep5srbip1s05mlm.apps.googleusercontent.com",
+          "client_id": "15326480504-ue9ou260uug28hv17fbqhd41frm8club.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "kr.co.pointn.golfya",
-            "certificate_hash": "934cf98377eb7081d5f65cb22e1b17b56248adc5"
+            "package_name": "kr.co.pointn.billiardya",
+            "certificate_hash": "3e70b6b8213cf2eea10bfa5f4f6352ba8dd2439f"
           }
         },
         {
-          "client_id": "550254969354-j7jnvfvfu5roh75nmmac7tqfj7fhp55q.apps.googleusercontent.com",
+          "client_id": "15326480504-vm47r37gs8t3s0icfqpcn1lstnabniho.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBdjF-UkGGkrDKHIdcuStb9mEpEq9BGaWw"
+          "current_key": "AIzaSyBGR1bYVMxCyHqOry0UKSs4K2PtA4VA8D8"
         }
       ],
       "services": {
@@ -40,7 +40,7 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "550254969354-j7jnvfvfu5roh75nmmac7tqfj7fhp55q.apps.googleusercontent.com",
+              "client_id": "15326480504-vm47r37gs8t3s0icfqpcn1lstnabniho.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

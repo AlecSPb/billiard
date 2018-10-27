@@ -18,7 +18,7 @@ import com.google.android.youtube.player.YouTubePlayer;
 import com.google.android.youtube.player.YouTubePlayerView;
 
 public class MoviePlayActivity extends YouTubeBaseActivity implements YouTubePlayer.OnInitializedListener {
-    String mApiKey = "AIzaSyCBOFrruYNwGIjpNZ9mEHUDyJg3qE3gwco";
+    String mApiKey = "AIzaSyBGR1bYVMxCyHqOry0UKSs4K2PtA4VA8D8";
     YouTubePlayerView youtubeView;
 
     YouTubePlayer mPlayer;
@@ -39,6 +39,7 @@ public class MoviePlayActivity extends YouTubeBaseActivity implements YouTubePla
             }
         }
     }
+    ㄹ
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -46,7 +47,6 @@ public class MoviePlayActivity extends YouTubeBaseActivity implements YouTubePla
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
         myToolbar = (Toolbar) findViewById(R.id.toolbar);
-
 
 
         TextView title = findViewById(R.id.toolbar_title);
@@ -66,7 +66,7 @@ public class MoviePlayActivity extends YouTubeBaseActivity implements YouTubePla
         youtubeView = (YouTubePlayerView) findViewById(R.id.youtubeView);
         youtubeView.initialize(mApiKey, this);
 
-        youtubeView.initialize("AIzaSyCBOFrruYNwGIjpNZ9mEHUDyJg3qE3gwco", listener);
+        //youtubeView.initialize(mApiKey, listener);
 
         ImageView btn_go_back = (ImageView) findViewById(R.id.back_button);
         btn_go_back.setOnClickListener(new View.OnClickListener() {
