@@ -1,11 +1,11 @@
 <resources>
-    <string name="app_name">골프레슨영상</string>
+    <string name="app_name">당구레슨영상</string>
 
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="networkmsg">네트워크가 연결되어있지않습니다. 확인후 재접속 바랍니다.</string>
 
-    <string name="exitmsg">골프레슨영상을 종료하시겠습니까?</string>
+    <string name="exitmsg">당구레슨영상을 종료하시겠습니까?</string>
     <string name="exitmsgY">종료</string>
     <string name="exitmsgN">취소</string>
     <string name="title_activity_splash">SplashActivity</string>
@@ -23,9 +23,9 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <!--  <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>--><!-- //test-->
-    <string name="banner_ad_unit_id">ca-app-pub-3808489523903055/9381981170</string>
-    <string name="banner_ad_unit_id2">ca-app-pub-3808489523903055/4998386170</string>
-    <string name="ap_ad_id">ca-app-pub-3808489523903055~9077770988</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3808489523903055/7833270790</string>
+    <string name="banner_ad_unit_id2">ca-app-pub-3808489523903055/6407674335</string>
+    <string name="ap_ad_id">ca-app-pub-3808489523903055~8298258930</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
