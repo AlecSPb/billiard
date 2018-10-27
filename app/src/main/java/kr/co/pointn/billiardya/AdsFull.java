@@ -9,7 +9,7 @@ import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.InterstitialAd;
 import com.google.android.gms.ads.MobileAds;
-1
+
 public class AdsFull {
 
     private static InterstitialAd adFull;
