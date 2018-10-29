@@ -34,15 +34,6 @@
                 android:layout_height="30dp"
                 android:layout_weight="1">
 
-                <!--<ImageButton
-                    android:id="@+id/a11"
-                    android:layout_width="26dp"
-                    android:layout_height="20dp"
-                    android:layout_gravity="center_vertical"
-                    android:layout_marginLeft="6dp"
-                    android:background="@drawable/before_black"
-                    android:src="@drawable/baseline_menu_black_18dp" />-->
-
             </LinearLayout>
 
 
@@ -56,7 +47,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="20dp"
                     android:layout_gravity="center"
-                    android:text="골프레슨영상"
+                    android:text="당구강좌영상"
                     android:textColor="@color/colorBlueDark"
                     android:textSize="14sp"
                     android:textStyle="bold" />
@@ -70,14 +61,6 @@
                 android:layout_height="30dp"
                 android:layout_weight="1"
                 android:gravity="right">
-
-               <!-- <ImageButton
-                    android:id="@+id/a33"
-                    android:layout_width="26dp"
-                    android:layout_height="20dp"
-                    android:layout_gravity="center_vertical"
-                    android:background="@drawable/before_black"
-                    android:src="@drawable/ic_search_black_24dp" /> -->
 
             </LinearLayout>
 
@@ -117,7 +100,7 @@
                 android:layout_marginTop="0dp"
                 android:layout_weight="1"
                 android:background="@color/colorBlue"
-                android:text="드라이버"
+                android:text="당구기초"
                 android:textColor="#ffffff"
                 android:textSize="14dp"
                 android:textStyle="bold" />
@@ -130,7 +113,7 @@
                 android:layout_marginTop="0dp"
                 android:layout_weight="1"
                 android:background="@color/colorBlue"
-                android:text="우드"
+                android:text="4구강좌"
                 android:textColor="#ffffff"
                 android:textSize="14dp"
                 android:textStyle="bold" />
@@ -143,7 +126,7 @@
                 android:layout_marginTop="0dp"
                 android:layout_weight="1"
                 android:background="@color/colorBlue"
-                android:text="아이언"
+                android:text="3쿠션강좌"
                 android:textColor="#ffffff"
                 android:textSize="14dp"
                 android:textStyle="bold" />
@@ -156,23 +139,11 @@
                 android:layout_marginTop="0dp"
                 android:layout_weight="1"
                 android:background="@color/colorPrimary"
-                android:text="웨지"
+                android:text="당구묘기"
                 android:textColor="#ffffff"
                 android:textSize="14dp"
                 android:textStyle="bold" />
 
-            <Button
-                android:id="@+id/putterButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="0dp"
-                android:layout_marginTop="0dp"
-                android:layout_weight="1"
-                android:background="@color/colorPrimary"
-                android:text="퍼터"
-                android:textColor="#ffffff"
-                android:textSize="14dp"
-                android:textStyle="bold" />
 
         </LinearLayout>
 

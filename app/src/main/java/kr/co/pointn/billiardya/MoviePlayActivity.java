@@ -39,7 +39,7 @@ public class MoviePlayActivity extends YouTubeBaseActivity implements YouTubePla
             }
         }
     }
-    ㄹ
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -87,7 +87,7 @@ public class MoviePlayActivity extends YouTubeBaseActivity implements YouTubePla
             public void onClick(View v) {
                 String EXTRA_TEXT ="https://www.youtube.com/watch?v="+videoId;
                  EXTRA_TEXT +="\n\n" +
-                         "언제나 함께하는 쉬운골프레슨 설치\n" +
+                         "언제나 함께하는 당구강좌영상 설치\n" +
                          "https://play.google.com/store/apps/details?id=kr.co.pointn.billiardya";
 
                 //Toast.makeText(getApplicationContext(), "Go Back", Toast.LENGTH_LONG).show();

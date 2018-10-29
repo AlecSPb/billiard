@@ -77,22 +77,16 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        // final Button newsButton = (Button) findViewById(R.id.newsButton);
-       // final Button homeButton = (Button) findViewById(R.id.homeButton);
         final Button driverButton = (Button) findViewById(R.id.driverButton);
         final Button woodButton = (Button) findViewById(R.id.woodButton);
         final Button ironButton = (Button) findViewById(R.id.ironButton);
         final Button wedgeButton = (Button) findViewById(R.id.wedgeButton);
-        final Button putterButton = (Button) findViewById(R.id.putterButton);
 
-        final LinearLayout main_news = (LinearLayout) findViewById(R.id.main_news) ;
 
-       // homeButton.setBackgroundColor(getResources().getColor(R.color.colorBlueDark));
         driverButton.setBackgroundColor(getResources().getColor(R.color.colorBlueDark));
         woodButton.setBackgroundColor(getResources().getColor(R.color.colorBlue));
         ironButton.setBackgroundColor(getResources().getColor(R.color.colorBlue));
         wedgeButton.setBackgroundColor(getResources().getColor(R.color.colorBlue));
-        putterButton.setBackgroundColor(getResources().getColor(R.color.colorBlue));
 
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
@@ -106,14 +100,10 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-                // main_news.setVisibility(View.GONE);
-                //newsButton.setBackgroundColor(getResources().getColor(R.color.colorBlue));
-               // homeButton.setBackgroundColor(getResources().getColor(R.color.colorBlue));
                 driverButton.setBackgroundColor(getResources().getColor(R.color.colorBlueDark));
                 woodButton.setBackgroundColor(getResources().getColor(R.color.colorBlue));
                 ironButton.setBackgroundColor(getResources().getColor(R.color.colorBlue));
                 wedgeButton.setBackgroundColor(getResources().getColor(R.color.colorBlue));
-                putterButton.setBackgroundColor(getResources().getColor(R.color.colorBlue));
 
 
 
@@ -130,14 +120,10 @@ public class MainActivity extends AppCompatActivity {
         woodButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //  main_news.setVisibility(View.GONE);
-                //  newsButton.setBackgroundColor(getResources().getColor(R.color.colorBlue));
-               // homeButton.setBackgroundColor(getResources().getColor(R.color.colorBlue));
                 driverButton.setBackgroundColor(getResources().getColor(R.color.colorBlue));
                 woodButton.setBackgroundColor(getResources().getColor(R.color.colorBlueDark));
                 ironButton.setBackgroundColor(getResources().getColor(R.color.colorBlue));
                 wedgeButton.setBackgroundColor(getResources().getColor(R.color.colorBlue));
-                putterButton.setBackgroundColor(getResources().getColor(R.color.colorBlue));
 
                 FragmentManager fragmentManager = getSupportFragmentManager();
                 FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
@@ -154,14 +140,10 @@ public class MainActivity extends AppCompatActivity {
         ironButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //  main_news.setVisibility(View.GONE);
-                //newsButton.setBackgroundColor(getResources().getColor(R.color.colorBlue));
-                //homeButton.setBackgroundColor(getResources().getColor(R.color.colorBlue));
                 driverButton.setBackgroundColor(getResources().getColor(R.color.colorBlue));
                 woodButton.setBackgroundColor(getResources().getColor(R.color.colorBlue));
                 ironButton.setBackgroundColor(getResources().getColor(R.color.colorBlueDark));
                 wedgeButton.setBackgroundColor(getResources().getColor(R.color.colorBlue));
-                putterButton.setBackgroundColor(getResources().getColor(R.color.colorBlue));
 
                 FragmentManager fragmentManager = getSupportFragmentManager();
                 FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
@@ -177,14 +159,10 @@ public class MainActivity extends AppCompatActivity {
         wedgeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //  main_news.setVisibility(View.GONE);
-                //  newsButton.setBackgroundColor(getResources().getColor(R.color.colorBlue));
-               // homeButton.setBackgroundColor(getResources().getColor(R.color.colorBlue));
                 driverButton.setBackgroundColor(getResources().getColor(R.color.colorBlue));
                 woodButton.setBackgroundColor(getResources().getColor(R.color.colorBlue));
                 ironButton.setBackgroundColor(getResources().getColor(R.color.colorBlue));
                 wedgeButton.setBackgroundColor(getResources().getColor(R.color.colorBlueDark));
-                putterButton.setBackgroundColor(getResources().getColor(R.color.colorBlue));
 
                 FragmentManager fragmentManager = getSupportFragmentManager();
                 FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
@@ -193,26 +171,6 @@ public class MainActivity extends AppCompatActivity {
                 Online();
                 if(networkYn==2) NotOnline();
 
-            }
-        });
-
-        putterButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                //  main_news.setVisibility(View.GONE);
-                // newsButton.setBackgroundColor(getResources().getColor(R.color.colorBlue));
-                driverButton.setBackgroundColor(getResources().getColor(R.color.colorBlue));
-                woodButton.setBackgroundColor(getResources().getColor(R.color.colorBlue));
-                ironButton.setBackgroundColor(getResources().getColor(R.color.colorBlue));
-                wedgeButton.setBackgroundColor(getResources().getColor(R.color.colorBlue));
-                putterButton.setBackgroundColor(getResources().getColor(R.color.colorBlueDark));
-
-                FragmentManager fragmentManager = getSupportFragmentManager();
-                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-                fragmentTransaction.replace(R.id.fragment, new PutterFragment());
-                fragmentTransaction.commit();
-                Online();
-                if(networkYn==2) NotOnline();
             }
         });
 

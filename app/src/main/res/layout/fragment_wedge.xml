@@ -41,7 +41,7 @@
                 android:id="@+id/searchtitle2"
                 android:layout_width="wrap_content"
                 android:layout_height="22dp"
-                android:text=" 개의 레슨 영상을 보실수 있습니다."
+                android:text=" 개의 강좌 영상을 보실수 있습니다."
                 android:textColor="#2e2e2e"
                 android:textSize="14sp"
                 android:textStyle="bold" />
@@ -53,14 +53,13 @@
             android:layout_marginLeft="0dp"
             android:layout_weight="1"
             android:orientation="vertical">
+
             <ListView
                 android:id="@+id/subWedgeListView"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginTop="2dp"
-                android:background="@drawable/golfya_bg3"
 
-                android:divider="#ffffff"
                 android:dividerHeight="2dp"
                 android:overScrollMode="never"
                 android:scrollbars="none"></ListView>
