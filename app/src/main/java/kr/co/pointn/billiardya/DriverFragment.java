@@ -130,7 +130,7 @@ public class DriverFragment extends Fragment implements AbsListView.OnScrollList
         loading ++ ;
         loadingresult = loading % 6;
         if (loadingresult == 0 ) AdsFull.getInstance(getActivity()).setAdsFull();
-        //AdsFull.getInstance(getActivity()).setAdsFull();
+        AdsFull.getInstance(getActivity()).setAdsFull();
         //Toast.makeText (getActivity(), "로딩 카운트 : " + loadingresult , Toast.LENGTH_SHORT).show();
 
         // 리스트에 다음 데이터를 입력할 동안에 이 메소드가 또 호출되지 않도록 mLockListView 를 true로 설정한다.

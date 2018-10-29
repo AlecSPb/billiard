@@ -138,7 +138,7 @@ public class WedgeFragment extends Fragment implements AbsListView.OnScrollListe
         loading ++ ;
         loadingresult = loading % 6;
         if (loadingresult == 0 ) AdsFull.getInstance(getActivity()).setAdsFull();
-        //AdsFull.getInstance(getActivity()).setAdsFull();
+        AdsFull.getInstance(getActivity()).setAdsFull();
 
         // 리스트에 다음 데이터를 입력할 동안에 이 메소드가 또 호출되지 않도록 mLockListView 를 true로 설정한다.
         mLockListView = true;
