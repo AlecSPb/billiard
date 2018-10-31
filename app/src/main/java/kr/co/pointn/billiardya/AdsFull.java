@@ -28,8 +28,8 @@ public class AdsFull {
 
         if (instance == null) {
             instance = new AdsFull(context);
-           // adFull = new InterstitialAd(context);
-           // setAds2(this);
+            // adFull = new InterstitialAd(context);
+            // setAds2(this);
         }
 
         return instance;
@@ -41,7 +41,13 @@ public class AdsFull {
         MobileAds.initialize(context, context.getResources().getString(R.string.ap_ad_id));
         mInterstitialAd = new InterstitialAd(context);
         mInterstitialAd.setAdUnitId(context.getResources().getString(R.string.banner_ad_unit_id2));
-        mInterstitialAd.loadAd(new AdRequest.Builder().build());
+
+        AdRequest adRequest = new AdRequest.Builder()
+                .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
+                .addTestDevice("B3EEABB8EE11C2BE770B684D95219ECB")
+                .build();
+
+        mInterstitialAd.loadAd(adRequest);
         mInterstitialAd.setAdListener(new AdListener() {
             public void onAdLoaded(){
                 if (mInterstitialAd.isLoaded()) {
@@ -61,11 +67,11 @@ public class AdsFull {
 
 //
 
-        Log.d("adView", "" + R.id.adView);
+        Log.d("adView", "" + AdRequest.DEVICE_ID_EMULATOR);
         AdView adView = (AdView) ((Activity) context).findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder()
-                //.addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
-                //.addTestDevice("F04045E9794CCECCCE886A59B2FF79DA")
+                .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
+                .addTestDevice("B3EEABB8EE11C2BE770B684D95219ECB")
                 .build();
         adView.loadAd(adRequest);
 

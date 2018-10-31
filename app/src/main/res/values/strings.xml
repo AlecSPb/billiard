@@ -23,9 +23,9 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <!--  <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>--><!-- //test-->
-    <string name="banner_ad_unit_id">ca-app-pub-3808489523903055/7833270790</string>
-    <string name="banner_ad_unit_id2">ca-app-pub-3808489523903055/6407674335</string>
-    <string name="ap_ad_id">ca-app-pub-3808489523903055~8298258930</string>
+    <string name="banner_ad_unit_id">ca-app-pub-6495211093988107/2060857911</string>
+    <string name="banner_ad_unit_id2">ca-app-pub-6495211093988107/3673322487</string>
+    <string name="ap_ad_id">ca-app-pub-6495211093988107~9939347933</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
