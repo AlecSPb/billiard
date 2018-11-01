@@ -17,7 +17,7 @@ android {
 
             applicationVariants.all { variant ->
                 variant.outputs.all {
-                    def appName = "billiardya_"
+                    def appName = "billiard_"
                     def buildType = variant.variantData.variantConfiguration.buildType.name
                     def newName
                     if (buildType == 'debug') {
