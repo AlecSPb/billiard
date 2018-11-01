@@ -1,27 +1,27 @@
 {
   "project_info": {
-    "project_number": "15326480504",
-    "firebase_url": "https://billiardya.firebaseio.com",
-    "project_id": "billiardya",
-    "storage_bucket": "billiardya.appspot.com"
+    "project_number": "1025462847266",
+    "firebase_url": "https://appfacory-billiard.firebaseio.com",
+    "project_id": "appfacory-billiard",
+    "storage_bucket": "appfacory-billiard.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:15326480504:android:aa869887bf364a8e",
+        "mobilesdk_app_id": "1:1025462847266:android:09f5a2105efdf765",
         "android_client_info": {
-          "package_name": "kr.appfactory.billiardya"
+          "package_name": "kr.appfactory.billiard"
         }
       },
       "oauth_client": [
         {
-          "client_id": "15326480504-vm47r37gs8t3s0icfqpcn1lstnabniho.apps.googleusercontent.com",
+          "client_id": "1025462847266-abldq1fkrn4llh2shk3dfsjdo36gd9t7.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBGR1bYVMxCyHqOry0UKSs4K2PtA4VA8D8"
+          "current_key": "AIzaSyAxktqOQC0vC9eL622AzlJGwtSs2VHAH00"
         }
       ],
       "services": {
@@ -36,51 +36,6 @@
           "status": 2
         }
       }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:15326480504:android:f2f8b6747ad1de09",
-        "android_client_info": {
-          "package_name": "kr.co.pointn.billiardya"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "15326480504-ue9ou260uug28hv17fbqhd41frm8club.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "kr.co.pointn.billiardya",
-            "certificate_hash": "3e70b6b8213cf2eea10bfa5f4f6352ba8dd2439f"
-          }
-        },
-        {
-          "client_id": "15326480504-vm47r37gs8t3s0icfqpcn1lstnabniho.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyBGR1bYVMxCyHqOry0UKSs4K2PtA4VA8D8"
-        }
-      ],
-      "services": {
-        "analytics_service": {
-          "status": 1
-        },
-        "appinvite_service": {
-          "status": 2,
-          "other_platform_oauth_client": [
-            {
-              "client_id": "15326480504-vm47r37gs8t3s0icfqpcn1lstnabniho.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        },
-        "ads_service": {
-          "status": 2
-        }
-      },
-      "admob_app_id": "ca-app-pub-3808489523903055~8298258930"
     }
   ],
   "configuration_version": "1"
