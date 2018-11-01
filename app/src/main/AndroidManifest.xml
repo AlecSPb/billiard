@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="kr.co.pointn.billiardya">
+    package="kr.appfactory.billiardya">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
@@ -20,7 +20,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="kr.co.pointn.billiardya.MainActivity"
+            android:name="kr.appfactory.billiardya.MainActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name">
             <meta-data
@@ -32,7 +32,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="kr.co.pointn.billiardya.SplashActivity"
+            android:name="kr.appfactory.billiardya.SplashActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name"
             android:theme="@style/SplashTheme">
@@ -43,25 +43,25 @@
             </intent-filter>
         </activity>
 
-        <service android:name="kr.co.pointn.billiardya.MyFirebaseMessagingService">
+        <service android:name="kr.appfactory.billiardya.MyFirebaseMessagingService">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
-        <service android:name="kr.co.pointn.billiardya.MyFirebaseInstanceIDService">
+        <service android:name="kr.appfactory.billiardya.MyFirebaseInstanceIDService">
             <intent-filter>
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
             </intent-filter>
         </service>
 
         <activity
-            android:name="kr.co.pointn.billiardya.OfflineActivity"
+            android:name="kr.appfactory.billiardya.OfflineActivity"
             android:theme="@style/OfflineTheme" />
         <activity
             android:name="com.google.android.gms.ads.AdActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
             android:theme="@android:style/Theme.Translucent" />
-        <activity android:name="kr.co.pointn.billiardya.MoviePlayActivity" android:configChanges="orientation|screenSize"></activity>
+        <activity android:name="kr.appfactory.billiardya.MoviePlayActivity" android:configChanges="orientation|screenSize"></activity>
     </application>
 
 </manifest>

@@ -8,6 +8,37 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:15326480504:android:aa869887bf364a8e",
+        "android_client_info": {
+          "package_name": "kr.appfactory.billiardya"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "15326480504-vm47r37gs8t3s0icfqpcn1lstnabniho.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGR1bYVMxCyHqOry0UKSs4K2PtA4VA8D8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:15326480504:android:f2f8b6747ad1de09",
         "android_client_info": {
           "package_name": "kr.co.pointn.billiardya"
@@ -48,7 +79,8 @@
         "ads_service": {
           "status": 2
         }
-      }
+      },
+      "admob_app_id": "ca-app-pub-3808489523903055~8298258930"
     }
   ],
   "configuration_version": "1"
